@@ -1,0 +1,9 @@
+3D50
+--------------
+Updated material profiles
+
+3D45
+--------------
+Fixed printable_area
+Updated machine profile acceleration and speed settings
+Updated gcode commands causing slicing to fail

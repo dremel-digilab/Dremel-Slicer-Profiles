@@ -1,0 +1,122 @@
+{
+  "type": "machine",
+  "setting_id": "GM001",
+  "name": "Dremel 3D50 0.4 nozzle",
+  "version": "2.0.0.5",
+  "from": "system",
+  "instantiation": "true",
+  "inherits": "fdm_klipper_common",
+  "printer_model": "Dremel 3D50",
+  "printer_variant": "0.4",
+  "printer_settings_id": "Dremel 3D50",
+  "gcode_flavor": "klipper",
+  "default_bed_type": "Textured PEI Plate",
+  "default_filament_profile": ["Dremel PLA @3D50"],
+  "default_print_profile": "0.20mm Standard @Dremel 3D50 0.4",
+  "nozzle_diameter": ["0.4"],
+  "printable_area": [
+    "0x0",
+    "256x0",
+    "256x256",
+    "0x256"
+  ],
+  "printable_height": "256",
+  "deretraction_speed": ["40"],
+  "emit_machine_limits_to_gcode": "0",
+  "enable_filament_ramming": "1",
+  "extra_loading_move": "-2",
+  "wipe": ["1"],
+  "wipe_distance": ["1"],
+  "z_hop": ["0.5"],
+  "machine_max_acceleration_e": [
+    "20000",
+    "5000"
+  ],
+  "machine_max_acceleration_extruding": [
+    "20000",
+    "1250"
+  ],
+  "machine_max_acceleration_retracting": [
+    "20000",
+    "1250"
+  ],
+  "machine_max_acceleration_x": [
+    "20000",
+    "1000"
+  ],
+  "machine_max_acceleration_y": [
+    "20000",
+    "1000"
+  ],
+  "machine_max_acceleration_z": [
+    "300",
+    "200"
+  ],
+  "machine_max_jerk_e": [
+    "2.5",
+    "2.5"
+  ],
+  "machine_max_jerk_x": [
+    "15",
+    "10"
+  ],
+  "machine_max_jerk_y": [
+    "15",
+    "10"
+  ],
+  "machine_max_jerk_z": [
+    "0.2",
+    "0.2"
+  ],
+  "machine_max_speed_e": [
+    "120",
+    "120"
+  ],
+  "machine_max_speed_x": [
+    "400",
+    "200"
+  ],
+  "machine_max_speed_y": [
+    "400",
+    "200"
+  ],
+  "machine_max_speed_z": [
+    "12",
+    "12"
+  ],
+  "max_layer_height": [
+    "0.34"
+  ],
+  "min_layer_height": ["0.07"],
+  "retraction_length": ["1"],
+  "retraction_minimum_travel": ["2"],
+  "retraction_speed": ["40"],
+  "use_relative_e_distances": "0",
+  "machine_start_gcode": "START_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP=[first_layer_temperature]",
+  "machine_end_gcode": "END_PRINT",
+  "machine_pause_gcode": "G5",
+  "change_filament_gcode": "G5",
+  "auxiliary_fan": "1",
+  "before_layer_change_gcode": "",
+  "disable_m73": "0",
+  "fan_kickstart": "0.5",
+  "fan_speedup_time": "0.5",
+  "fan_speedup_overhangs": "1",
+  "is_custom_defined": "0",
+  "layer_change_gcode": "",
+  "manual_filament_change": "1",
+  "nozzle_type": "stainless_steel",
+  "retract_before_wipe": ["70%"],
+  "retract_length_toolchange": ["0"],
+  "retract_lift_enforce": ["Top and Bottom"],
+  "thumbnails": "48x48/PNG, 300x300/PNG",
+  "time_cost": "35",
+  "time_lapse_gcode": "",
+  "z_hop_types": ["Auto Lift"],
+  "machine_max_acceleration_travel": ["1500", "1250"],
+  "machine_min_extruding_rate": ["0", "0"],
+  "machine_min_travel_rate": ["0", "0"],
+  "support_multi_bed_types": "1",
+  "thumbnails_format": "PNG",
+  "bed_types": ["Textured PEI Plate"]
+}
