@@ -3,7 +3,7 @@
     "setting_id": "GM001",
     "name": "Dremel 3D45 0.4 nozzle",
     "from": "system",
-    "version": "2.0.1.1",
+    "version": "2.0.1.2",
     "instantiation": "true",
     "inherits": "fdm_dremel_common",
     "printer_model": "Dremel 3D45",
@@ -44,12 +44,12 @@
         "2500"
     ],
     "machine_max_acceleration_extruding": [
-        "1500",
-        "1500"
+        "2500",
+        "2500"
     ],
     "machine_max_acceleration_retracting": [
-        "1500",
-        "1500"
+        "2500",
+        "2500"
     ],
     "machine_max_acceleration_x": [
         "2500",
