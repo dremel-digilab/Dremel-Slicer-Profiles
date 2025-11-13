@@ -1,3 +1,7 @@
+2025-11-11 21:25:57 - Version 02.03.00.01
+Added printer: Dremel 3D40 copied from 3D45.
+Added 3D40 process profiles (0.10mm Detailed / 0.20mm Standard / 0.28mm Draft).
+Added 3D40 filament profiles: PLA Matte, PLA, SILK.
 3D50
 --------------
 Updated material profiles
